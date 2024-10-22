@@ -36,6 +36,10 @@ export const themeConfig = {
     header: [
       // favicon
       ["link", { rel: "icon", href: "/favicon.ico" }],
+      [
+        'script',
+        { defer: '',href: 'https://umami.lideshan.top/script.js','data-website-id':"3f7ba7f3-4099-4c3d-a9ac-7cd8b65bcdbc" }
+      ],
       // RSS
       [
         "link",
