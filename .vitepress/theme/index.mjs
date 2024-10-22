@@ -4,7 +4,6 @@ import { routeChange } from "@/utils/initTools.mjs";
 import { enhanceAppWithTabs } from "vitepress-plugin-tabs/client";
 import LazyLoader from "@/components/LazyLoader.vue";
 import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
-import { inject } from "@vercel/analytics"
 // 根组件
 import App from "@/App.vue";
 // 全局样式
@@ -16,7 +15,6 @@ pinia.use(piniaPluginPersistedstate);
 
 // InstantSearch
 import InstantSearch from "vue-instantsearch/vue3/es";
-inject();
 // Theme
 const Theme = {
   // extends: Theme,
