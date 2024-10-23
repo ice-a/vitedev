@@ -36,7 +36,7 @@ export default withPwa(
     head: themeConfig.inject.header,
     // sitemap
     sitemap: {
-      hostname: themeConfig.siteMeta.site,
+      hostname: "https://lideshan.cn",
     },
     // 主题配置
     themeConfig: {
