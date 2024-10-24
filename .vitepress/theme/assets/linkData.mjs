@@ -69,6 +69,18 @@ const linkData = [
         desc: "",
         url: "http://stardream.vip/",
       },
+      {
+        name: "白哥",
+        avatar: "https://bgspider.com/static/webAvatar/bgspider11725953447433697.jpg",
+        desc: "爬虫和反爬虫",
+        url: "https://bgspider.com/",
+      },
+      {
+        name: "似水年华哥",
+        avatar: "http://zhaomeng.net/media/upload/image/zm.jpg",
+        desc: "爬虫和反爬虫",
+        url: "http://zhaomeng.net/",
+      }
     ],
   },
 ];
