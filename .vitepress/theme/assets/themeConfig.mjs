@@ -40,6 +40,29 @@ export const themeConfig = {
         'script',
         { defer: '',src: 'https://umami.lideshan.top/script.js','data-website-id':"3f7ba7f3-4099-4c3d-a9ac-7cd8b65bcdbc" }
       ],
+      //Google Analytics
+      [
+        'script',
+        { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-PFX76MXT59' }
+      ],
+      [
+        'script',
+        {},
+        `window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PFX76MXT59');`
+      ],
+      
+      //Google AdSense
+      [
+        "script",
+        {
+          "data-ad-client": "YOURCLIENTID like ca-pub-8097273255284826",
+          async: '',
+          src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+        },
+      ],
       // RSS
       [
         "link",
