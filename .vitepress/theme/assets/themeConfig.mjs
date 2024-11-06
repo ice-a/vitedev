@@ -58,7 +58,7 @@ export const themeConfig = {
       [
         "script",
         {
-          "data-ad-client": "YOURCLIENTID like ca-pub-8097273255284826",
+          "data-ad-client": "ca-pub-8097273255284826",
           async: '',
           src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
         },
