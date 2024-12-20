@@ -30,6 +30,9 @@ const Theme = {
     enhanceAppWithTabs(app);
     // 路由守卫
     router.onBeforeRouteChange = (to) => {
+      if (typeof _hmt !== 'undefined') {
+        _hmt.push(['_trackPageview', to]);
+      }
       routeChange("before", to);
     };
     router.onAfterRouteChanged = (to) => {
