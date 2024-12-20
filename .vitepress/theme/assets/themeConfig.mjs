@@ -69,7 +69,7 @@ export const themeConfig = {
       (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?1ad24b8d1bcf889f6454d7869c8af4a1";
-        var s = document.getElementsByTagName("script")[0]; 
+        var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
       })();
     `]
