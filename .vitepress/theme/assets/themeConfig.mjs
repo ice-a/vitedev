@@ -63,6 +63,16 @@ export const themeConfig = {
           src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
         },
       ],
+      // 百度统计
+      ['script', {}, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1ad24b8d1bcf889f6454d7869c8af4a1";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    `]
       // RSS
       [
         "link",
